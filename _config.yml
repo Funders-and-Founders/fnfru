@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Funders and Founders
+tagline:          'О стартапах и предпринимательстве'
+description:      'Мы наглядно объясняем стартапы и предпринимательство с помощью <a href="http://fundersandfounders.com/" title="Читать больше инфографик на английском" target="_blank">инфографик</a>.'
+url:              http://lanyon.getpoole.com
+
+author:
+  name:           'Mark Vital'
+  url:            https://twitter.com/markvitals
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
