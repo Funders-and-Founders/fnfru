@@ -358,6 +358,73 @@ a.sidebar-nav-item:focus {
  * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
  * there are no more previous or next posts to show.
  */
+ 
+.paging a {
+  opacity: 0.25; 
+}
+.paging a:hover {
+  opacity: 0.7;
+  background: none;
+  text-decoration: none;
+}
+.paging .left, .paging .right {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  display: none;
+}
+
+@media (min-width: 30.1rem) {
+	.paging .left, .paging .right {
+		display: block;
+	}
+
+	.paging .left {
+	  margin-left: -240px; 
+	}
+	.paging .right {
+	  margin-left: 215px; 
+	}
+}
+
+@media (min-width: 38rem) {
+	.paging .left {
+	  margin-left: -330px; 
+	}
+	.paging .right {
+	  margin-left: 310px; 
+	}
+}
+
+@media (min-width: 44rem) {
+
+    .paging .left, .paging .right {
+      font-size: 30px;
+    }  
+
+	.paging .left {
+	  margin-left: -350px; 
+	}
+	.paging .right {
+	  margin-left: 320px; 
+	}
+}
+
+
+@media (min-width: 56rem) {
+    .paging .left, .paging .right {
+      font-size: 40px;
+    }  
+      
+	.paging .left {
+	  margin-left: -450px; 
+	}
+	.paging .right {
+	  margin-left: 400px; 
+	}
+}
+ 
 
 .pagination {
   overflow: hidden; /* clearfix */
@@ -500,12 +567,12 @@ a.pagination-item:hover {
 .theme-base-0d .sidebar,
 .theme-base-0d .sidebar-toggle:active,
 .theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #6a9fb5;
+  background-color: #3399cc;
 }
 .theme-base-0d .container a,
 .theme-base-0d .sidebar-toggle,
 .theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
+  color: #3399cc;
 }
 
 /* Magenta */
