@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 h2 {
   margin-top: 1rem;
@@ -98,6 +98,12 @@ h3 {
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+@media (min-width: 30rem) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 /* Body text */
@@ -263,6 +269,22 @@ tbody tr:nth-child(odd) th {
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
+}
+
+.container.content {
+  margin-top: -35px;
+}
+
+@media (min-width: 38rem) {
+  .container.content {
+  	margin-top: -20px;
+  }
+}
+
+@media (min-width: 356rem) {
+  .container.content {
+  	margin-top: 0px;
+  }
 }
 
 
