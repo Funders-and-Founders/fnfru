@@ -100,7 +100,7 @@ h4, h5, h6 {
   font-size: 1rem;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 38rem) {
   h1 {
     font-size: 2rem;
   }
