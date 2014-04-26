@@ -368,11 +368,13 @@ a.sidebar-nav-item:focus {
 .paging a {
   opacity: 0.25; 
 }
-.paging a:hover {
+
+.paging a:hover, .mobile-prev-page:hover {
   opacity: 0.7;
   background: none;
   text-decoration: none;
 }
+
 .paging .left, .paging .right {
   position: fixed;
   top: 50%;
@@ -389,8 +391,13 @@ a.sidebar-nav-item:focus {
 	.paging .left {
 	  margin-left: -240px; 
 	}
+	
 	.paging .right {
 	  margin-left: 215px; 
+	}
+	
+	.mobile-prev-page {
+		display: none;
 	}
 }
 
