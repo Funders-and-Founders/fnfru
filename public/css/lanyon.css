@@ -351,6 +351,12 @@ a.sidebar-nav-item:focus {
   color: inherit;
 }
 
+.credits {
+	opacity: 0.75;
+	text-align: right;
+	font-size: small;
+}
+
 
 /*
  * Pagination
