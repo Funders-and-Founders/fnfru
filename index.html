@@ -23,11 +23,11 @@ title: Home
   {% if paginator.next_page %}
     <a class="pagination-item older" href="/page{{paginator.next_page}}" title="Предидущие посты">Предыдущая</a>
   {% else %}
-    <span class="pagination-item older" title="Следующие посты">Следующая</span>
+    <span class="pagination-item older" title="Предидущие посты">Предыдущая</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Предыдущая</a>
+      <a class="pagination-item newer" href="/">Следующая</a>
     {% else %}
       <a class="pagination-item newer" href="/page{{paginator.previous_page}}" title="Следующие посты">Следующая</a>
     {% endif %}
